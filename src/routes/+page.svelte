@@ -4,7 +4,7 @@
 <div class="main">
 	<nav class="nav">
 		<div class="nav-left">
-			<a href="/">Pohadkove</a>
+			<a class="glow" href="/">Pohadkove</a>
 			<!--<a href="/about">About</a>-->
 		</div>
 		<div class="nav-right">
@@ -13,7 +13,7 @@
 					xmlns="http://www.w3.org/2000/svg"
 					width="25"
 					height="25"
-					fill="currentColor"
+					fill="#ffffff"
 					class="bi bi-braces-asterisk"
 					viewBox="0 0 16 16"
 				>
@@ -25,72 +25,76 @@
 			</a>
 		</div>
 	</nav>
-	<div class="vertical-center">
+	
 		<div class="arrow">
-		<svg
-			xmlns="http://www.w3.org/2000/svg"
-			width="60"
-			height="60"
-			fill="#ffff"
-			class="bi bi-arrow-down"
-			viewBox="0 0 16 16"
-		>
-			<path
-				fill-rule="evenodd"
-				d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-			/>
-		</svg>
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				width="60"
+				height="60"
+				fill="#ffff"
+				class="bi bi-arrow-down"
+				viewBox="0 0 16 16"
+			>
+				<path
+					fill-rule="evenodd"
+					d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+				/>
+			</svg>
 		</div>
 	</div>
-</div>
+
 <div class="project-1">
-	
+	<a class="glow" href="https://groovy-songs.vercel.app/" target="_blank"><h1>Groovy</h1></a>
 </div>
 
 <style>
-	.nav{
-		position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+	.project-1 {
+		height: 100vh;
+		display: flex;
+		align-items: center; /* Vertical center alignment */
+		justify-content: center; /* Horizontal center alignment */
 	}
-    .col-6, .row{
-        margin: 0;
-        padding: 0;
-    }
-    
-	.vertical-center {
+	.nav {
+		position: fixed; /* Set the navbar to fixed position */
+		top: 0; /* Position the navbar at the top of the page */
+		width: 100%; /* Full width */
+	}
+	.col-6,
+	.row {
 		margin: 0;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		margin-right: -50%;
-		transform: translate(-50%, -50%);
+		padding: 0;
 	}
 	.main {
 		height: 100vh;
 		background: url(/background.jpg);
 		background-position: center;
 		background-size: cover;
+		display: flex;
+		align-items: center; /* Vertical center alignment */
+		justify-content: center; /* Horizontal center alignment */
 	}
-	.project-1 {
-		height: 100vh;
-	}
-	a {
-		color: white;
+	a{
 		cursor: pointer;
+	}
+	.pointer-defualt{
+		cursor:default;
+	}
+	.glow {
+		color: white;
 		text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #3a72ff, 0 0 82px #3a72ff,
 			0 0 92px #3a72ff, 0 0 102px #3a72ff, 0 0 151px #3a72ff;
 	}
 	@keyframes MoveUpDown {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-}
-.arrow{
-	animation: MoveUpDown 5s linear infinite;
-  position: absolute;
-}
+		0%,
+		100% {
+			transform: translateY(0);
+		}
+		50% {
+			transform: translateY(-20px);
+		}
+	}
+	.arrow {
+		animation: MoveUpDown 5s linear infinite;
+		position: absolute;
+	}
 </style>
