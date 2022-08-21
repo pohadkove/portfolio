@@ -10,5 +10,6 @@
 	:root {
 		--bg-color: #121212;
 		--font-color: #ffffff;
+		--color-primary: #3b1ef4;
 	}
 </style>

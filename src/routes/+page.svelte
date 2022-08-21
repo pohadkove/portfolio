@@ -13,6 +13,7 @@ import Card from '../lib/Card.svelte';
 			<!--<a href="/about">About</a>-->
 		</div>
 		<div class="nav-right">
+			<!--<a class="glow" href="#contact">Contact</a>-->
 			<a href="/">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +60,44 @@ import Card from '../lib/Card.svelte';
 <div class="about">
 	<Card />
 </div>
+<!--
+<div class="project-1" id="contact">
+	<form
+		target="_blank"
+		action="https://formsubmit.co/d62e5353edc906a7b7d9ef757cfd5f9a"
+		method="POST"
+	>
+		<div class="form-group">
+			<div class="form-row">
+				<input type="text" name="name" class="form-control" placeholder="Song Name" required />
+
+				<input
+					type="email"
+					name="email"
+					class="form-control"
+					placeholder="Email Address"
+					required
+				/>
+			</div>
+		</div>
+		<div class="form-group">
+			<textarea
+				placeholder="Song name artist and link"
+				class="form-control"
+				name="message"
+				rows="2"
+				required
+			/>
+		</div>
+		<input type="hidden" name="_autoresponse" value="Thank you for submiting a song" />
+		<button id="send-button" type="submit" class="sub button primary is-full-width "
+			>Submit Form</button
+		>
+	</form>
+</div>
+-->
 <style>
+	
 		.about {
 			height: 100vh;
 		background: url(/about.jpg);
@@ -118,7 +156,7 @@ import Card from '../lib/Card.svelte';
 		cursor:default;
 	}
 	nav .glow{
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 	.glow {
 		color: white;
