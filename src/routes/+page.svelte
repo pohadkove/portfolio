@@ -50,13 +50,20 @@ import Card from '../lib/Card.svelte';
 	</div>
 <div class="project-1">
 	<div>
+	<a class="glow" href="https://github.com/pohadkove/MTG-Util-revamped" target="_blank"><h1>MTG-Util</h1></a>
+</div>
+	<div>
+	<p><a href="https://github.com/pohadkove/MTG-Util-revamped" target="_blank">MTG-Util</a> is a desktop app for magic the gathering with life point counters dice roller and rule book</p>
+</div>
+</div>
+<div class="project-1">
+	<div>
 	<a class="glow" href="https://groovy-songs.vercel.app/" target="_blank"><h1>Groovy</h1></a>
 </div>
 	<div>
 	<p><a href="https://groovy-songs.vercel.app/" target="_blank">Groovy</a> is a site to discover new music it uses firebase on the backend to let users submit songs and to display songs</p>
 </div>
 </div>
-
 <div class="about">
 	<Card />
 </div>
