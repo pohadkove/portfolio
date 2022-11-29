@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-:root {
-    --bg-color: #121212;
-    --font-color: #ffffff;
-     --color-primary: #5841f1;
-}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -46,31 +42,7 @@ body::-webkit-scrollbar {
     height: 100vh;
 }
 
-	.nav {
-		position: fixed; /* Set the navbar to fixed position */
-		top: 0; /* Position the navbar at the top of the page */
-		width: 100%; /* Full width */
-	}
-    
-	.col-6,
-	.row {
-		margin: 0;
-		padding: 0;
-	}
-	a{
-		cursor: pointer;
-	}
-	a:hover{
-		opacity: 95%;
-	}
-	.pointer-defualt{
-		cursor:default;
-	}
 
-    .nav a{
-        font-size: 2em ;
-        font-family: 'Dancing Script', cursive;
-    }
 	@keyframes MoveUpDown {
 		0%,
 		100% {
