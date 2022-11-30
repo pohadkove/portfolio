@@ -1,7 +1,7 @@
 import { Card, Text, Button, Spacer } from "@nextui-org/react";
 import EmailModal from './EmailModal'
 export default function Contact() {
-    const openInNewTab = url => {
+    const openInNewTab = (url: any) => {
         window.open(url, '_blank', 'noopener,noreferrer');
       };
   return (
