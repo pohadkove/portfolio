@@ -8,7 +8,7 @@ const theme = createTheme({
   type: "dark", // it could be "light" or "dark"
   theme: {
     colors: {
- 
+      
     },
     space: {},
     fonts: {}
