@@ -58,4 +58,8 @@ body::-webkit-scrollbar {
 		animation: MoveUpDown 5s linear infinite;
 		position: absolute;
 	}
-
+    /* targeting navbars create class might break we will see*/
+    .nextui-c-hhqfap-gqZKcP-disableBlur-false .nextui-c-egxOLa {
+         background:none; 
+        backdrop-filter: saturate(10%) blur(none); 
+    }

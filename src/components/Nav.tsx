@@ -1,11 +1,10 @@
 import React from "react";
 import { Navbar, Button, Link, Text, Card, Radio } from "@nextui-org/react";
-import './Nav.css'
 
 export default function Nav() {
   
   return (
-      <Navbar  style={{boxSizing: "border-box", }} variant="fixed" >
+      <Navbar  style={{boxSizing: "border-box", backgroundColor:"transparent", backdropFilter:"saturate(100%) blur(0px)" }} variant="sticky" >
         <Navbar.Content>
         <Text b color="inherit">
           <a style={{color:"white", fontSize:"2.5em", fontFamily: "'Dancing Script', cursive"}}  href="/">Pohadkove</a>
