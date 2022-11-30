@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import './index.css';
 import { createTheme, NextUIProvider} from "@nextui-org/react"
-
+import './index.css';
 // 2. Call `createTheme` and pass your custom values
 const theme = createTheme({
   type: "dark", // it could be "light" or "dark"

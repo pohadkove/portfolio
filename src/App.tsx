@@ -1,6 +1,6 @@
 import Contact from "./components/Contact"
 import Nav from "./components/Nav"
-
+import './index.css';
 function App() {
 
   return (
