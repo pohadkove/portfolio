@@ -5,14 +5,12 @@ import { Navbar, Button, Link, Text, Card, Radio } from "@nextui-org/react";
 export default function Nav() {
   
   return (
-   <div>
-      <Navbar variant="static">
-        <Navbar.Brand>
-         
-          <Text b color="inherit" hideIn="xs">
+      <Navbar style={{boxSizing: "border-box",}} variant="sticky">
+        <Navbar.Content>
+        <Text b color="inherit">
           <a style={{color:"white", fontSize:"2.5em", fontFamily: "'Dancing Script', cursive"}}  href="/">Pohadkove</a>
           </Text>
-        </Navbar.Brand>
+        </Navbar.Content>
         <Navbar.Content hideIn="xs">
          {/* <Navbar.Link href="#">Features</Navbar.Link>
           <Navbar.Link isActive href="#">Customers</Navbar.Link>
@@ -30,6 +28,5 @@ export default function Nav() {
           </Navbar.Item>
         </Navbar.Content>
       </Navbar>
-</div>
   )
 }

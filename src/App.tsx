@@ -1,3 +1,4 @@
+import Contact from "./components/Contact"
 import Nav from "./components/Nav"
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
 		<Nav />
     <div className="main">
+		
 		<div className="arrow">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +57,7 @@ function App() {
 </div>
 <div className="project">
 	<div id="contact">
-		hello
+		<Contact />
 	</div>
 </div>
 
