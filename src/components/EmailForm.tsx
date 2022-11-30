@@ -7,7 +7,7 @@ export default function EmailForm() {
 
   <form
     target="_blank"
-    action="https://formsubmit.co/rbutler2825@gmail.com"
+    action="https://formsubmit.co/d62e5353edc906a7b7d9ef757cfd5f9a"
     method="POST"
     style={{display:"flex", flexDirection:"column"}}
   >
