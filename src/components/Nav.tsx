@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Button, Link, Text, Card, Radio } from "@nextui-org/react";
-
+import '../index.css'
 
 export default function Nav() {
   

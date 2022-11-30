@@ -4,8 +4,14 @@ export default function Contact() {
     const openInNewTab = (url: any) => {
         window.open(url, '_blank', 'noopener,noreferrer');
       };
+      
   return (
-    <Card className="contactCard">
+    <Card style={{ 
+        minWidth: 'fit-content',
+        width: '20vw',
+        maxWidth: '100vw'
+      }} 
+      className="contactCard">
       <Card.Body>
         <Text h1 style={{textAlign:"center"}}>Contact</Text>
         <EmailModal />
