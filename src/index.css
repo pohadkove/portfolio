@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+:root{
+    --nextui--navbarBlur: none;
+}
 body {
 	margin: 0;
 	padding: 0;

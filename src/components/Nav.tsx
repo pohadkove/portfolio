@@ -5,7 +5,7 @@ import './Nav.css'
 export default function Nav() {
   
   return (
-      <Navbar  style={{boxSizing: "border-box",}} variant="sticky">
+      <Navbar  style={{boxSizing: "border-box", }} variant="fixed" >
         <Navbar.Content>
         <Text b color="inherit">
           <a style={{color:"white", fontSize:"2.5em", fontFamily: "'Dancing Script', cursive"}}  href="/">Pohadkove</a>
