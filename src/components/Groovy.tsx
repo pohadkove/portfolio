@@ -2,10 +2,9 @@ import React from "react";
 import { Modal, Button, Text, Input, Row, Checkbox } from "@nextui-org/react";
 
 export default function Groovy() {
-
   return (
     <>
- <div className="project-2">
+      <div className="project-2">
         <div>
           <a href="https://groovy-songs.vercel.app/" target="_blank">
             <h1>Groovy</h1>

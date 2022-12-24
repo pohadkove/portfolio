@@ -2,28 +2,21 @@ import React from "react";
 import { Modal, Button, Text, Input, Row, Checkbox } from "@nextui-org/react";
 
 export default function Cpp() {
-
   return (
     <>
-        <div className="project">
+      <div className="project">
         <div>
-          <a
-            href="https://github.com/pohadkove/new-pc-cpp"
-            target="_blank"
-          >
+          <a href="https://github.com/pohadkove/new-pc-cpp" target="_blank">
             <h1>New Pc c++</h1>
           </a>
         </div>
         <div>
           <p>
-            <a
-              href="https://github.com/pohadkove/new-pc-cpp"
-              target="_blank"
-            >
+            <a href="https://github.com/pohadkove/new-pc-cpp" target="_blank">
               New pc c++
             </a>
-            &nbsp;
-           This is a simple program to let you isntall stuff on your new computers .
+            &nbsp; This is a simple program to let you isntall stuff on your new
+            computers .
           </p>
         </div>
         <div className="arrow-2">

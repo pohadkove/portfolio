@@ -2,10 +2,9 @@ import React from "react";
 import { Modal, Button, Text, Input, Row, Checkbox } from "@nextui-org/react";
 
 export default function Mtgutil() {
-
   return (
     <>
-        <div className="project">
+      <div className="project">
         <div>
           <a
             href="https://github.com/pohadkove/MTG-Util-revamped"
@@ -22,12 +21,10 @@ export default function Mtgutil() {
             >
               MTG-Util
             </a>
-            &nbsp;
-            is a desktop app for magic the gathering with life point counters
-            dice roller and rule book. There is also a mobile website version <a
-              href="https://mtg-util-mobile.vercel.app/tab1"
-              target="_blank"
-            >
+            &nbsp; is a desktop app for magic the gathering with life point
+            counters dice roller and rule book. There is also a mobile website
+            version{" "}
+            <a href="https://mtg-util-mobile.vercel.app/tab1" target="_blank">
               Here
             </a>
           </p>
