@@ -1,65 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-:root{
-    --nextui--navbarBlur: none;
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+:root {
+  --nextui--navbarBlur: none;
 }
 body {
-	margin: 0;
-	padding: 0;
-	-ms-overflow-style: none; /* Internet Explorer 10+ */
-	scrollbar-width: none; /* Firefox */
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
 }
 body::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 .main {
-    height: 100vh;
-    background: url(assets/anime-night-scenery-8r.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center; /* Vertical center alignment */
-    justify-content: center; /* Horizontal center alignment */
-    background-attachment: fixed;
+  height: 100vh;
+  background: url(assets/anime-night-scenery-8r.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+  background-attachment: fixed;
 }
-.project{
-	background: url(assets/background.jpg);
-    background-position: center;
-    background-size: cover;
-	background-attachment: fixed; 
-    height: fit-content;
-    display: flex;
-    align-items: center; /* Vertical center alignment */
-    justify-content: center; /* Horizontal center alignment */
-    background-size: cover;
-    flex-direction: column;
-	height: 100vh;
+.project {
+  background: url(assets/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: fit-content;
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+  background-size: cover;
+  flex-direction: column;
+  height: 100vh;
 }
-.project-2{
-    height: fit-content;
-    display: flex;
-    align-items: center; /* Vertical center alignment */
-    justify-content: center; /* Horizontal center alignment */
-    background-size: cover;
-    flex-direction: column;
-    height: 100vh;
+.project-2 {
+  height: fit-content;
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+  background-size: cover;
+  flex-direction: column;
+  height: 100vh;
 }
 
-
-	@keyframes MoveUpDown {
-		0%,
-		100% {
-			transform: translateY(0);
-		}
-		50% {
-			transform: translateY(-20px);
-		}
-	}
-	.arrow {
-		animation: MoveUpDown 5s linear infinite;
-		position: absolute;
-	}
-    /* targeting navbars create class might break we will see*/
-    .nextui-c-hhqfap-gqZKcP-disableBlur-false .nextui-c-egxOLa {
-         background:none; 
-        backdrop-filter: saturate(10%) blur(none); 
-    }
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+.arrow {
+  animation: MoveUpDown 5s linear infinite;
+  position: absolute;
+}
+/* targeting navbars create class might break we will see*/
+.nextui-c-hhqfap-gqZKcP-disableBlur-false .nextui-c-egxOLa {
+  background: none;
+  backdrop-filter: saturate(10%) blur(none);
+}

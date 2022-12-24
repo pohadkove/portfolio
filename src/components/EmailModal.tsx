@@ -12,9 +12,7 @@ export default function EmailModal() {
 
   return (
     <>
-      <Button onClick={handler}>
-        Email
-      </Button>
+      <Button onClick={handler}>Email</Button>
       <Modal
         closeButton
         blur
@@ -28,11 +26,9 @@ export default function EmailModal() {
           </Text>
         </Modal.Header>
         <Modal.Body>
-            <EmailForm />
+          <EmailForm />
         </Modal.Body>
-        <Modal.Footer>
-         
-        </Modal.Footer>
+        <Modal.Footer></Modal.Footer>
       </Modal>
     </>
   );

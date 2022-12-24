@@ -1,20 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import { createTheme, NextUIProvider} from "@nextui-org/react"
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import { createTheme, NextUIProvider } from "@nextui-org/react";
+import "./index.css";
 // 2. Call `createTheme` and pass your custom values
 const theme = createTheme({
   type: "dark", // it could be "light" or "dark"
   theme: {
-    colors: {
-      
-    },
+    colors: {},
     space: {},
-    fonts: {}
-  }
-})
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+    fonts: {},
+  },
+});
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <NextUIProvider theme={theme}>
       <App />
