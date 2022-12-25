@@ -62,3 +62,8 @@ body::-webkit-scrollbar {
   background: none;
   backdrop-filter: saturate(10%) blur(none);
 }
+.flexcenter{
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+}

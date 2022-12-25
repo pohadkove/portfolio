@@ -6,6 +6,7 @@ export default function Contact() {
   };
 
   return (
+    <div className="flexcenter">
     <Card
       style={{
         minWidth: "fit-content",
@@ -29,5 +30,6 @@ export default function Contact() {
         </Button>
       </Card.Body>
     </Card>
+    </div>
   );
 }
