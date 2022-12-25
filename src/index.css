@@ -13,7 +13,7 @@ body::-webkit-scrollbar {
 }
 .main {
   height: 100vh;
-  background: url(assets/anime-night-scenery-8r.jpg);
+  background: url(assets/peoplewalking.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -56,11 +56,6 @@ body::-webkit-scrollbar {
 .arrow {
   animation: MoveUpDown 5s linear infinite;
   position: absolute;
-}
-/* targeting navbars create class might break we will see*/
-.nextui-c-hhqfap-gqZKcP-disableBlur-false .nextui-c-egxOLa {
-  background: none;
-  backdrop-filter: saturate(10%) blur(none);
 }
 .flexcenter{
   display: flex;
